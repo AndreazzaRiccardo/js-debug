@@ -65,6 +65,8 @@ const cars = [
     },
 ];
 // i valori delle chiavi sono alcuni con l'inziale maiuscola e altri minuscola
+// ma se voglio fare una cosa migliore posso utilizzare dopo auto.type il .toLowerCase()
+// in questo modo posso dire nel mio confronto: ignora il case Sensitive
 
 const gasolineCars = cars.filter( (auto) >= auto.type === 'benzina');
 // l'arrow function è scritta con una sintassi sbagliata
